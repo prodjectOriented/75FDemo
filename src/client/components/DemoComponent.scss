@@ -1,0 +1,41 @@
+.demo {
+  padding: 20px;
+
+  * {
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .start {
+    font-size: 18px;
+    background: #52aefe;
+    color: white;
+    padding: 6px 12px;
+  }
+
+  .lineGraph {
+    margin-bottom: 30px;
+    svg {
+      background: #c3c3c3;
+      display: block;
+    }
+  }
+
+  .point {
+    cursor: pointer;
+  }
+}
+
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  background: white;
+  border: 1px solid black;
+  padding: 4px;
+}
