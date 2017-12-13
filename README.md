@@ -24,6 +24,8 @@ Also assumes existence of a "mockdevice" DB schema. Can provision with a SQL que
 CREATE DATABASE mockdevice;
 ```
 
+If you don't, this demo is set up to automagically set one up for you, so no worries :)
+
 ## Workflow
 
 Based on design assumptions, the workflow would be something along the lines of:
